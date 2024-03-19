@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { FaAlignJustify } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-import mypic from "./Asets/Aimages/bg_2.jpg"
+import mypic from "./Asets/Aimages/name_3.jpg"
 const Header = () => {
     const [showNavbar, setShowNavbar] = useState(true);
     useEffect(() => {

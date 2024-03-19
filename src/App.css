@@ -353,14 +353,14 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    transition: all 3s cubic-bezier(0.23, 1, 0.320, 1);
     margin-bottom: 10%;
   }
   
   .mathod svg {
     width: 48px;
     fill: #333;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    transition: all 5s cubic-bezier(0.23, 1, 0.320, 1);
   }
   
   .mathod:hover {
@@ -379,7 +379,7 @@
     box-sizing: border-box;
     background-color: #fff;
     opacity: 0;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    transition: all 3s cubic-bezier(0.23, 1, 0.320, 1);
   }
   
   .mathod:hover .card__content {
@@ -405,7 +405,10 @@
     scale: 0;
     transform: rotate(-45deg);
   }
-  
+  .mathod img{
+    width: 100%;
+    height: 300px;
+  }
   /* cart decoration start here */
   .Cantact{
     padding-bottom: 10%;
